@@ -58,13 +58,6 @@ struct Descend {
         return grad;
     }
 
-    void to_string() 
-    {
-        for (int i = 0; i < size; i++)
-        {
-            std::cout << current_position[i] << std::endl;
-        }
-    }
 };
 
 double my_function(std::vector<double> x)
